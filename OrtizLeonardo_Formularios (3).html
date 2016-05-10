@@ -1,0 +1,63 @@
+<html>
+
+ 
+    <head>       
+        <meta charset="utf-8"> 
+        <title>Primer Formulario</title>
+		
+    </head>
+
+<body>
+
+<p>
+<table border>
+<tr> <th>
+<h3>Datos del Usuario</h3>
+<label for="nombre">Primer Nombre: </label>
+<input title="Se necesita un nombre"  input type="text"  name="nombre" id="nombre" required >
+
+<br/> <br/>
+
+<label for="Apellido P">Apellido P: </label>
+<input title="Se necesita el Apellido P" input type="text" name="apellidoP" id="apellidoP" required>
+<br/> <br/>
+
+<label for="Apellido M">Apellido M: </label>
+<input title="Se necesita el Apellido M" input type="text" name="apellidoM" id="apellidoM">
+<br/> <br/>
+<h4>Sexo:
+<input type="radio" name="sexo" id="varon" value="Varón">
+<label for="varon">Hombre</label>
+<input type="radio" name="sexo" id="mujer" value="Mujer">
+<label for="mujer">Mujer</label></h4>
+<br/> <br/>
+<h4>Nacionalidad:
+<SELECT NAME="selCombo" SIZE=1 onChange="javascript:alert('prueba');"> 
+<OPTION VALUE="link pagina 1">Elija una Opción</OPTION>
+<OPTION VALUE="link pagina 2">Ecuatoriano</OPTION>
+<OPTION VALUE="link pagina 3">Peruano</OPTION>
+<OPTION VALUE="link pagina 4">Argentino</OPTION>
+<OPTION VALUE="link pagina 5">Colombiano</OPTION> 
+<OPTION VALUE="link pagina 6">Paraguayo</OPTION> 
+</SELECT> </h4>
+</th> <th><h3>Datos del Perfil</h3>
+
+
+<center><IMG src="https://bvirtual.epn.edu.ec/SGUB/vauth/img/logo.png" width="100" height="100"/></center>
+<br/>
+<input type="date" /> 
+<br/>
+<input type="checkbox" 
+name="temas"/>Desea Mostrar estos datos 
+
+
+</th></tr>
+
+</table>
+<br/> <br/>
+<input type="submit" value="Enviar">
+<input type="reset">
+</p>
+</form>
+</body>
+</html>
